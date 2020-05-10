@@ -1,0 +1,18 @@
+.flash-effect {
+  animation: flash 0.5s;
+  animation-timing-function: ease-in;
+}
+
+@keyframes flash {
+  from {
+    background-color: rgba(255, 251, 5, 0);
+  }
+
+  5% {
+    background-color: rgba(255, 251, 5, 0.7);
+  }
+
+  to {
+    background-color: rgba(0, 255, 0, 0);
+  }
+}
