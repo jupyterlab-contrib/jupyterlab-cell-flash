@@ -18,7 +18,7 @@ const extension: JupyterFrontEndPlugin<void> = {
     if (settingRegistry) {
       const setting = await settingRegistry.load(extension.id);
       const root = document.documentElement;
-      const updateSettings = () => {
+      const updateSettings = (): void => {
         const color = setting.get('color').composite as string;
         const duration = setting.get('duration').composite as number;
         root.style.setProperty('--jp-cell-flash-color', color);
@@ -33,7 +33,7 @@ const extension: JupyterFrontEndPlugin<void> = {
       const element = cell.editor.host;
       element.classList.remove('flash-effect');
       element.offsetWidth;
-      const onAnimationEnd = () => {
+      const onAnimationEnd = (): void => {
         element.removeEventListener('animationcancel', onAnimationEnd);
         element.removeEventListener('animationend', onAnimationEnd);
         element.classList.remove('flash-effect');
