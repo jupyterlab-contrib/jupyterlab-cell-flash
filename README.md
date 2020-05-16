@@ -2,6 +2,7 @@
 
 ![Github Actions Status](https://github.com/jtpio/jupyterlab-cell-flash/workflows/Build/badge.svg)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jtpio/jupyterlab-cell-flash/master?urlpath=/lab/tree/demo.ipynb)
+[![npm](https://img.shields.io/npm/v/jupyterlab-cell-flash.svg)](https://www.npmjs.com/package/jupyterlab-cell-flash)
 
 Show a flash effect when a notebook cell is executed.
 
