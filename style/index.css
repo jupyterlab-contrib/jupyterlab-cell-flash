@@ -10,7 +10,7 @@
 
 @keyframes flash {
   from {
-    background-color: transparent;
+    background-color: var(--jp-cell-editor-background);
   }
 
   5% {
@@ -18,6 +18,6 @@
   }
 
   to {
-    background-color: transparent;
+    background-color: var(--jp-cell-editor-background);
   }
 }
