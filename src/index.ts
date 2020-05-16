@@ -15,7 +15,6 @@ const extension: JupyterFrontEndPlugin<void> = {
   autoStart: true,
   optional: [ISettingRegistry],
   activate: async (app: JupyterFrontEnd, settingRegistry: ISettingRegistry) => {
-
     if (settingRegistry) {
       const setting = await settingRegistry.load(extension.id);
       const root = document.documentElement;

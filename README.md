@@ -9,13 +9,29 @@ Show a flash effect when a notebook cell is executed.
 
 ## Requirements
 
-* JupyterLab >= 2.0
+- JupyterLab >= 2.0
 
 ## Install
 
 ```bash
 jupyter labextension install jupyterlab-cell-flash
 ```
+
+## Settings
+
+Use the following settings to tweak the color and the duration of the animation (in `Settings > Advanced Settings Editor`):
+
+```json
+{
+  // The base color for the flash effect
+  "color": "rgba(255, 255, 0, 0.5)",
+
+  // The duration of the flash effect animation (in seconds)
+  "duration": 0.5
+}
+```
+
+![settings](https://user-images.githubusercontent.com/591645/82119497-633ffc80-977f-11ea-912f-b0ec57e5f169.gif)
 
 ## Contributing
 
