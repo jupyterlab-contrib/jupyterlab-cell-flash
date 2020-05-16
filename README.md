@@ -22,7 +22,7 @@ jupyter labextension install jupyterlab-cell-flash
 
 Use the following settings to tweak the color and the duration of the animation (in `Settings > Advanced Settings Editor`):
 
-```json
+```
 {
   // The base color for the flash effect
   "color": "rgba(255, 255, 0, 0.5)",
