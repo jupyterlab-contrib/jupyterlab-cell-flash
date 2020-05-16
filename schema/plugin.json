@@ -1,0 +1,19 @@
+{
+  "title": "JupyterLab Cell Flash",
+  "description": "Settings for the Cell Flash extension",
+  "type": "object",
+  "properties": {
+    "color": {
+      "type": "string",
+      "title": "Color",
+      "description": "The base color for the flash effect",
+      "default": "rgba(255, 255, 0, 0.5)"
+    },
+    "duration": {
+      "type": "number",
+      "title": "Duration (seconds)",
+      "description": "The duration of the flash effect animation (in seconds)",
+      "default": 0.5
+    }
+  }
+}
