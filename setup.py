@@ -46,7 +46,7 @@ cmdclass = create_cmdclass("jsdeps",
 )
 
 cmdclass["jsdeps"] = combine_commands(
-    install_npm(HERE, build_cmd="build", npm=["jlpm"]),
+    install_npm(HERE, build_cmd="build:prod", npm=["jlpm"]),
     ensure_targets(jstargets),
 )
 
@@ -64,7 +64,7 @@ setup_args = dict(
     cmdclass= cmdclass,
     packages=setuptools.find_packages(),
     install_requires=[
-        "jupyterlab>=3.0.0rc2,==3.*",
+        "jupyterlab>=3.0.0rc5,==3.*",
     ],
     zip_safe=False,
     include_package_data=True,
