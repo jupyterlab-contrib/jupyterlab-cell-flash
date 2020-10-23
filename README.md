@@ -4,18 +4,18 @@
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jtpio/jupyterlab-cell-flash/main?urlpath=/lab/tree/demo.ipynb)
 [![npm](https://img.shields.io/npm/v/jupyterlab-cell-flash.svg)](https://www.npmjs.com/package/jupyterlab-cell-flash)
 
-Show a flash effect when a notebook cell is executed.
+JupyterLab extension to show a flash effect when a cell is executed.
 
-![screencast](./screencast.gif)
+
 
 ## Requirements
 
-- JupyterLab >= 2.0
+* JupyterLab >= 3.0
 
 ## Install
 
 ```bash
-jupyter labextension install jupyterlab-cell-flash
+pip install jupyterlab-cell-flash
 ```
 
 ## Settings
@@ -36,7 +36,9 @@ Use the following settings to tweak the color and the duration of the animation 
 
 ## Contributing
 
-### Install
+### Development install
+
+Note: You will need NodeJS to build the extension package.
 
 The `jlpm` command is JupyterLab's pinned version of
 [yarn](https://yarnpkg.com/) that is installed with JupyterLab. You may use
@@ -44,31 +46,29 @@ The `jlpm` command is JupyterLab's pinned version of
 
 ```bash
 # Clone the repo to your local environment
-# Move to jupyterlab-cell-flash directory
-
-# Install dependencies
-jlpm
-# Build Typescript source
-jlpm build
+# Change directory to the jupyterlab-cell-flash directory
+# Install package in development mode
+pip install -e .
 # Link your development version of the extension with JupyterLab
-jupyter labextension link .
-# Rebuild Typescript source after making changes
-jlpm build
-# Rebuild JupyterLab after making any changes
-jupyter lab build
+jlpm run install:extension
+# Rebuild extension Typescript source after making changes
+jlpm run build
 ```
 
-You can watch the source directory and run JupyterLab in watch mode to watch for changes in the extension's source and automatically rebuild the extension and application.
+You can watch the source directory and run JupyterLab at the same time in different terminals to watch for changes in the extension's source and automatically rebuild the extension.
 
 ```bash
-# Watch the source directory in another terminal tab
-jlpm watch
-# Run jupyterlab in watch mode in one terminal tab
-jupyter lab --watch
+# Watch the source directory in one terminal, automatically rebuilding when needed
+jlpm run watch
+# Run JupyterLab in another terminal
+jupyter lab
 ```
+
+With the watch command running, every saved change will immediately be built locally and available in your running JupyterLab. Refresh JupyterLab to load the change in your browser (you may need to wait several seconds for the extension to be rebuilt).
 
 ### Uninstall
 
 ```bash
+pip uninstall jupyterlab-cell-flash
 jupyter labextension uninstall jupyterlab-cell-flash
 ```
