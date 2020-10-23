@@ -6,4 +6,4 @@ channels:
 dependencies:
 - jupyterlab=3
 - pip:
-  - jupyterlab-cell-flash==0.3.0
+  - jupyterlab-cell-flash==0.3.1
