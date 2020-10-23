@@ -2,21 +2,30 @@
 
 ![Github Actions Status](https://github.com/jtpio/jupyterlab-cell-flash/workflows/Build/badge.svg)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jtpio/jupyterlab-cell-flash/main?urlpath=/lab/tree/demo.ipynb)
+[![PyPI](https://img.shields.io/pypi/v/jupyterlab-cell-flash.svg)](https://pypi.org/project/jupyterlab-cell-flash)
 [![npm](https://img.shields.io/npm/v/jupyterlab-cell-flash.svg)](https://www.npmjs.com/package/jupyterlab-cell-flash)
 
 JupyterLab extension to show a flash effect when a cell is executed.
 
 
-
 ## Requirements
 
-* JupyterLab >= 3.0
+* JupyterLab >= 2.0
 
 ## Install
+
+For JupyterLab 3.x, the extension can be installed with `pip`:
 
 ```bash
 pip install jupyterlab-cell-flash
 ```
+
+For JupyterLab 1.x and 2.x:
+
+```bash
+jupyter labextension install jupyterlab-cell-flash
+```
+
 
 ## Settings
 
