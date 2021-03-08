@@ -62,6 +62,8 @@ pip install -e .
 jlpm run install:extension
 # Rebuild extension Typescript source after making changes
 jlpm run build
+# Enable the extension to show on Jupyterlab
+jupyter labextension enable jupyterlab-cell-flash
 ```
 
 You can watch the source directory and run JupyterLab at the same time in different terminals to watch for changes in the extension's source and automatically rebuild the extension.
