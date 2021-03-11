@@ -1,0 +1,23 @@
+:root {
+  --jp-cell-flash-color: rgba(255, 255, 0, 0.5);
+  --jp-cell-flash-duration: 0.5s;
+}
+
+.flash-effect {
+  animation: flash var(--jp-cell-flash-duration);
+  animation-timing-function: ease-in;
+}
+
+@keyframes flash {
+  from {
+    background-color: var(--jp-cell-editor-background);
+  }
+
+  5% {
+    background-color: var(--jp-cell-flash-color);
+  }
+
+  to {
+    background-color: var(--jp-cell-editor-background);
+  }
+}

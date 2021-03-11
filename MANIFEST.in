@@ -4,9 +4,11 @@ include pyproject.toml
 include jupyter-config/jupyterlab-cell-flash.json
 
 include package.json
+include install.json
 include ts*.json
+include yarn.lock
 
-graft jupyterlab-cell-flash/static
+graft jupyterlab-cell-flash/labextension
 
 # Javascript files
 graft src
