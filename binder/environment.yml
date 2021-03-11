@@ -1,9 +1,7 @@
 name: jupyterlab-cell-flash
 channels:
-- conda-forge/label/jupyterlab_rc
-- conda-forge/label/jupyterlab_server_rc
 - conda-forge
 dependencies:
 - jupyterlab=3
 - pip:
-  - jupyterlab-cell-flash==0.3.1
+  - jupyterlab-cell-flash==0.3.2
