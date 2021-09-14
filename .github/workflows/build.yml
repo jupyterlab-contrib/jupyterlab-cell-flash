@@ -15,11 +15,11 @@ jobs:
     - name: Install node
       uses: actions/setup-node@v1
       with:
-       node-version: '12.x'
+       node-version: '14.x'
     - name: Install Python
       uses: actions/setup-python@v2
       with:
-        python-version: '3.7'
+        python-version: '3.9'
         architecture: 'x64'
 
 
@@ -27,9 +27,9 @@ jobs:
       uses: actions/cache@v2
       with:
         path: ~/.cache/pip
-        key: pip-3.7-${{ hashFiles('package.json') }}
+        key: pip-3.9-${{ hashFiles('package.json') }}
         restore-keys: |
-          pip-3.7-
+          pip-3.9-
           pip-
 
     - name: Get yarn cache directory path
@@ -45,7 +45,7 @@ jobs:
           yarn-
 
     - name: Install dependencies
-      run: python -m pip install -U jupyterlab~=3.0 jupyter_packaging~=0.7.9
+      run: python -m pip install -U jupyterlab~=3.0 jupyter_packaging~=0.10
     - name: Build the extension
       run: |
         jlpm
