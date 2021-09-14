@@ -17,5 +17,5 @@ build_cmd = "build:prod"
 npm = ["jlpm"]
 
 [tool.check-manifest]
-ignore = ["binder/**", "*.json", "yarn.lock", ".*", "jupyterlab_cell_flash/labextension/**"]
+ignore = ["*.json", "yarn.lock", ".*", "jupyterlab_cell_flash/labextension/**"]
 
