@@ -2,6 +2,26 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.3.4
+
+([Full Changelog](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/compare/v0.3.3...09cc497ce51c4e12653716aa859519a1c267444a))
+
+### Maintenance and upkeep improvements
+
+- Update links after transfer [#19](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/19) ([@jtpio](https://github.com/jtpio))
+
+### Documentation improvements
+
+- Create RELEASE.md [#20](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/20) ([@jtpio](https://github.com/jtpio))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/graphs/contributors?from=2021-09-14&to=2021-09-15&type=c))
+
+[@jtpio](https://github.com/search?q=repo%3Ajupyterlab-contrib%2Fjupyterlab-cell-flash+involves%3Ajtpio+updated%3A2021-09-14..2021-09-15&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.3.3
 
 ([Full Changelog](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/compare/0.3.2...f54f7918f87a3e7bd50d10ef8c75c053cac88b70))
@@ -26,8 +46,6 @@
 ([GitHub contributors page for this release](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/graphs/contributors?from=2021-03-11&to=2021-09-14&type=c))
 
 [@dependabot](https://github.com/search?q=repo%3Ajtpio%2Fjupyterlab-cell-flash+involves%3Adependabot+updated%3A2021-03-11..2021-09-14&type=Issues) | [@jtpio](https://github.com/search?q=repo%3Ajtpio%2Fjupyterlab-cell-flash+involves%3Ajtpio+updated%3A2021-03-11..2021-09-14&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.3.2
 
