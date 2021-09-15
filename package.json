@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-cell-flash",
-  "version": "0.3.3",
+  "version": "0.3.4",
   "description": "JupyterLab extension to show a flash effect when a cell is executed",
   "keywords": [
     "jupyter",
