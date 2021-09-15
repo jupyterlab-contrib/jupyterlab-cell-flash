@@ -1,7 +1,7 @@
 # jupyterlab-cell-flash
 
-![Github Actions Status](https://github.com/jtpio/jupyterlab-cell-flash/workflows/Build/badge.svg)
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jtpio/jupyterlab-cell-flash/main?urlpath=/lab/tree/demo.ipynb)
+![Github Actions Status](https://github.com/jupyterlab-contribjupyterlab-cell-flash/workflows/Build/badge.svg)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyterlab-contribjupyterlab-cell-flash/main?urlpath=/lab/tree/demo.ipynb)
 [![PyPI](https://img.shields.io/pypi/v/jupyterlab-cell-flash.svg)](https://pypi.org/project/jupyterlab-cell-flash)
 [![npm](https://img.shields.io/npm/v/jupyterlab-cell-flash.svg)](https://www.npmjs.com/package/jupyterlab-cell-flash)
 
