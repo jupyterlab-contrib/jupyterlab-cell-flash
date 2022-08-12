@@ -2,6 +2,33 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.3.5
+
+([Full Changelog](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/compare/v0.3.4...66e871b9a08287bd6655f1744c94633b06de5842))
+
+### Maintenance and upkeep improvements
+
+- Bump url-parse from 1.5.7 to 1.5.10 [#26](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/26) ([@dependabot](https://github.com/dependabot))
+- Bump url-parse from 1.5.3 to 1.5.7 [#25](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/25) ([@dependabot](https://github.com/dependabot))
+- Bump ansi-regex from 5.0.0 to 5.0.1 [#23](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/23) ([@dependabot](https://github.com/dependabot))
+
+### Other merged PRs
+
+- Bump moment from 2.29.2 to 2.29.4 [#31](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/31) ([@dependabot](https://github.com/dependabot))
+- Bump terser from 5.8.0 to 5.14.2 [#30](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/30) ([@dependabot](https://github.com/dependabot))
+- Bump shell-quote from 1.7.2 to 1.7.3 [#29](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/29) ([@dependabot](https://github.com/dependabot))
+- Bump moment from 2.29.1 to 2.29.2 [#28](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/28) ([@dependabot](https://github.com/dependabot))
+- Bump minimist from 1.2.5 to 1.2.6 [#27](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/27) ([@dependabot](https://github.com/dependabot))
+- Bump nanoid from 3.1.25 to 3.2.0 [#22](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/22) ([@dependabot](https://github.com/dependabot))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/graphs/contributors?from=2021-09-15&to=2022-08-10&type=c))
+
+[@dependabot](https://github.com/search?q=repo%3Ajupyterlab-contrib%2Fjupyterlab-cell-flash+involves%3Adependabot+updated%3A2021-09-15..2022-08-10&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.3.4
 
 ([Full Changelog](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/compare/v0.3.3...09cc497ce51c4e12653716aa859519a1c267444a))
@@ -19,8 +46,6 @@
 ([GitHub contributors page for this release](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/graphs/contributors?from=2021-09-14&to=2021-09-15&type=c))
 
 [@jtpio](https://github.com/search?q=repo%3Ajupyterlab-contrib%2Fjupyterlab-cell-flash+involves%3Ajtpio+updated%3A2021-09-14..2021-09-15&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.3.3
 
