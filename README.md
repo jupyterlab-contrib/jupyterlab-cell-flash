@@ -1,6 +1,6 @@
 # jupyterlab-cell-flash
 
-[![Extension status](https://img.shields.io/badge/status-ready-success "ready to be used")](https://jupyterlab-contrib.github.io/)
+[![Extension status](https://img.shields.io/badge/status-ready-success 'ready to be used')](https://jupyterlab-contrib.github.io/)
 [![Github Actions Status](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/workflows/Build/badge.svg)](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/actions/workflows/build.yml)
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/jupyterlab-contrib/jupyterlab-cell-flash/main?urlpath=/lab/tree/demo.ipynb)
 [![PyPI](https://img.shields.io/pypi/v/jupyterlab-cell-flash.svg)](https://pypi.org/project/jupyterlab-cell-flash)
@@ -8,10 +8,9 @@
 
 JupyterLab extension to show a flash effect when a cell is executed.
 
-
 ## Requirements
 
-* JupyterLab >= 2.0
+- JupyterLab >= 2.0
 
 ## Install
 
@@ -27,7 +26,6 @@ For JupyterLab 1.x and 2.x:
 jupyter labextension install jupyterlab-cell-flash
 ```
 
-
 ## Settings
 
 Use the following settings to tweak the color and the duration of the animation (in `Settings > Advanced Settings Editor`):
@@ -35,10 +33,10 @@ Use the following settings to tweak the color and the duration of the animation 
 ```json5
 {
   // The base color for the flash effect
-  "color": "rgba(255, 255, 0, 0.5)",
+  color: 'rgba(255, 255, 0, 0.5)',
 
   // The duration of the flash effect animation (in seconds)
-  "duration": 0.5
+  duration: 0.5
 }
 ```
 

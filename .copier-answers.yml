@@ -7,9 +7,9 @@ has_binder: false
 has_settings: true
 kind: frontend
 labextension_name: jupyterlab-cell-flash
-project_short_description: JupyterLab extension to show a flash effect when a cell
-    is executed
+project_short_description:
+  JupyterLab extension to show a flash effect when a cell
+  is executed
 python_name: jupyterlab_cell_flash
 repository: https://github.com/jupyterlab-contrib/jupyterlab-cell-flash.git
 test: false
-
