@@ -93,14 +93,6 @@
         "schemaDir": "schema",
         "outputDir": "jupyterlab_cell_flash/labextension"
     },
-    "jupyter-releaser": {
-        "hooks": {
-            "before-build-npm": [
-                "python -m pip install jupyterlab~=3.1",
-                "jlpm"
-            ]
-        }
-    },
     "publishConfig": {
         "access": "public"
     },
