@@ -2,6 +2,37 @@
 
 <!-- <START NEW CHANGELOG ENTRY> -->
 
+## 0.4.0
+
+([Full Changelog](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/compare/v0.3.5...cabbbc5f74441d82f702a3ae151a186dbc71640e))
+
+### Enhancements made
+
+- Support JupyterLab 4.0 [#43](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/43) ([@mengyanw](https://github.com/mengyanw))
+
+### Maintenance and upkeep improvements
+
+- Bump postcss from 8.3.6 to 8.4.31 [#42](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/42) ([@dependabot](https://github.com/dependabot))
+- Bump word-wrap from 1.2.3 to 1.2.4 [#40](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/40) ([@dependabot](https://github.com/dependabot))
+- Bump semver from 5.7.1 to 5.7.2 [#39](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/39) ([@dependabot](https://github.com/dependabot))
+
+### Other merged PRs
+
+- Bump webpack from 5.52.1 to 5.76.1 [#38](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/38) ([@dependabot](https://github.com/dependabot))
+- Bump http-cache-semantics from 4.1.0 to 4.1.1 [#37](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/37) ([@dependabot](https://github.com/dependabot))
+- Bump json5 from 1.0.1 to 1.0.2 [#36](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/36) ([@dependabot](https://github.com/dependabot))
+- Bump qs from 6.5.2 to 6.5.3 [#35](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/35) ([@dependabot](https://github.com/dependabot))
+- Bump loader-utils from 1.4.1 to 1.4.2 [#34](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/34) ([@dependabot](https://github.com/dependabot))
+- Bump loader-utils from 1.4.0 to 1.4.1 [#33](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/pull/33) ([@dependabot](https://github.com/dependabot))
+
+### Contributors to this release
+
+([GitHub contributors page for this release](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/graphs/contributors?from=2022-08-12&to=2023-11-21&type=c))
+
+[@dependabot](https://github.com/search?q=repo%3Ajupyterlab-contrib%2Fjupyterlab-cell-flash+involves%3Adependabot+updated%3A2022-08-12..2023-11-21&type=Issues) | [@mengyanw](https://github.com/search?q=repo%3Ajupyterlab-contrib%2Fjupyterlab-cell-flash+involves%3Amengyanw+updated%3A2022-08-12..2023-11-21&type=Issues)
+
+<!-- <END NEW CHANGELOG ENTRY> -->
+
 ## 0.3.5
 
 ([Full Changelog](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/compare/v0.3.4...66e871b9a08287bd6655f1744c94633b06de5842))
@@ -26,8 +57,6 @@
 ([GitHub contributors page for this release](https://github.com/jupyterlab-contrib/jupyterlab-cell-flash/graphs/contributors?from=2021-09-15&to=2022-08-10&type=c))
 
 [@dependabot](https://github.com/search?q=repo%3Ajupyterlab-contrib%2Fjupyterlab-cell-flash+involves%3Adependabot+updated%3A2021-09-15..2022-08-10&type=Issues)
-
-<!-- <END NEW CHANGELOG ENTRY> -->
 
 ## 0.3.4
 
