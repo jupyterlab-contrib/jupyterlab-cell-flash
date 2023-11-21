@@ -30,19 +30,21 @@ const extension: JupyterFrontEndPlugin<void> = {
 
     NotebookActions.executed.connect((_, args) => {
       const { cell } = args;
-      const element = cell.editor.host;
-      element.classList.remove('flash-effect');
-      element.offsetWidth;
-      const onAnimationEnd = (): void => {
-        element.removeEventListener('animationcancel', onAnimationEnd);
-        element.removeEventListener('animationend', onAnimationEnd);
+      const element = cell.editor?.host;
+      if (element) {
         element.classList.remove('flash-effect');
-      };
-      requestAnimationFrame(() => {
-        element.addEventListener('animationend', onAnimationEnd);
-        element.addEventListener('animationcancel', onAnimationEnd);
-        element.classList.add('flash-effect');
-      });
+        element.offsetWidth;
+        const onAnimationEnd = (): void => {
+          element.removeEventListener('animationcancel', onAnimationEnd);
+          element.removeEventListener('animationend', onAnimationEnd);
+          element.classList.remove('flash-effect');
+        };
+        requestAnimationFrame(() => {
+          element.addEventListener('animationend', onAnimationEnd);
+          element.addEventListener('animationcancel', onAnimationEnd);
+          element.classList.add('flash-effect');
+        });
+      }
     });
   }
 };

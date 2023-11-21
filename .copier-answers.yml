@@ -1,0 +1,15 @@
+# Changes here will be overwritten by Copier; NEVER EDIT MANUALLY
+_commit: v4.2.4
+_src_path: https://github.com/jupyterlab/extension-template
+author_email: ''
+author_name: JupyterLab Contrib Team
+has_binder: false
+has_settings: true
+kind: frontend
+labextension_name: jupyterlab-cell-flash
+project_short_description:
+  JupyterLab extension to show a flash effect when a cell
+  is executed
+python_name: jupyterlab_cell_flash
+repository: https://github.com/jupyterlab-contrib/jupyterlab-cell-flash.git
+test: false
